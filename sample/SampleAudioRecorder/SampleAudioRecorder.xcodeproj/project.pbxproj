@@ -18,6 +18,7 @@
 		A28822BA158B479000BBEEE4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28822B9158B479000BBEEE4 /* QuartzCore.framework */; };
 		A28822BC158B479600BBEEE4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28822BB158B479600BBEEE4 /* AVFoundation.framework */; };
 		A28822BF158B47E100BBEEE4 /* WalkieTalkieSettingsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A28822BE158B47E100BBEEE4 /* WalkieTalkieSettingsClass.m */; };
+		A28822D7158B4CE600BBEEE4 /* WSClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A28822D6158B4CE600BBEEE4 /* WSClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		A28822BB158B479600BBEEE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A28822BD158B47E100BBEEE4 /* WalkieTalkieSettingsClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkieTalkieSettingsClass.h; sourceTree = "<group>"; };
 		A28822BE158B47E100BBEEE4 /* WalkieTalkieSettingsClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkieTalkieSettingsClass.m; sourceTree = "<group>"; };
+		A28822D5158B4CE600BBEEE4 /* WSClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSClass.h; sourceTree = "<group>"; };
+		A28822D6158B4CE600BBEEE4 /* WSClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				A28822A5158B476900BBEEE4 /* InfoPlist.strings */,
 				A28822A8158B476900BBEEE4 /* main.m */,
 				A28822AA158B476900BBEEE4 /* SampleAudioRecorder-Prefix.pch */,
+				A28822D5158B4CE600BBEEE4 /* WSClass.h */,
+				A28822D6158B4CE600BBEEE4 /* WSClass.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				A28822AD158B476900BBEEE4 /* SampleAudioRecorderAppDelegate.m in Sources */,
 				A28822B3158B476900BBEEE4 /* SampleAudioRecorderViewController.m in Sources */,
 				A28822BF158B47E100BBEEE4 /* WalkieTalkieSettingsClass.m in Sources */,
+				A28822D7158B4CE600BBEEE4 /* WSClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +296,7 @@
 				A28822B8158B476900BBEEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
